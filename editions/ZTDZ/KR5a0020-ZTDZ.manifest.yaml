@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5a0020/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5a0020/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 三光注齡資福延壽妙經
+  date: '2015-08-28 23:35:01.603617'
+  source:
+    repository: kanripo
+    path: KR5a0020
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0020_000-ZTDZ.yaml, hash: 'sha256:046b1ad92cab4687d6547c8045dbb81523b8ed19456dff9e2872b9fbfb6e3728'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0020_000-ZTDZ.markers.yaml, hash: 'sha256:642f50a85c8c49f0cd3852cec20bf97f24d3e869558225920a881fcb1df5c8ef'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0020_SJB_000-010773b
+    span:
+    - body
+    - 0
+    - 271
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:47d1d1241f773ec5c0872aca48d5dce6f990793535e0a1bf6b8aeb39486a1f18

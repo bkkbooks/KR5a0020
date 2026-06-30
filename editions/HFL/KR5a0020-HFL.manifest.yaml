@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5a0020/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5a0020/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 三光注齡資福延壽妙經
+  date: '2015-08-28 23:35:01.603617'
+  source:
+    repository: kanripo
+    path: KR5a0020
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0020_000-HFL.yaml, hash: 'sha256:da11729a19407c37be7cc30ad200b024cf4c804105d694199175e034a8922d32'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0020_000-HFL.markers.yaml, hash: 'sha256:e89d25c710d66bcd9ff103a90f735539d06206a997dc7e085503093e73b9ac26'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0020_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 271
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:c98898941624e5d7b9618109cf6f10188749ce8f1763b5694b1371ee2d74e77c
